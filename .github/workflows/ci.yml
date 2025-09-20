@@ -26,5 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - working-directory: ./site
+      - working-directory: ./reviews
         run: mkdocs gh-deploy --force
