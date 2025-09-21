@@ -7,6 +7,7 @@ repo_url: https://github.com/nagisa9219/InteranimationsReviewers
 
 theme:
   name: material
+  language: zh-Hant
   features:
     - announce.dismiss
     - content.action.edit
@@ -19,7 +20,7 @@ theme:
     - content.tooltips
     # - header.autohide
     # - navigation.expand
-    - navigation.footer
+    # - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
@@ -42,8 +43,8 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
